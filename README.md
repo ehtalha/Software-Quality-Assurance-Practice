@@ -1,6 +1,6 @@
 # Software Quality Assurance (SQA) Practice Lab 🧪
 
-Welcome to my SQA practice repository! This project serves as a centralized hub for all my learning, exercises, and projects completed during my **Software Quality Assurance** course on Udemy.
+Welcome to my SQA practice repository! This project serves as a centralized hub for all my learning, exercises, and projects completed during my **Software Quality Assurance** course
 
 ## 🚀 Purpose
 The goal of this repository is to document my journey in mastering software testing, moving from manual testing fundamentals to automated quality engineering.
