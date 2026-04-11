@@ -1,0 +1,47 @@
+Log in validation (Facebook)
+
+
+Valid Scenarios :
+1.	login with  email and password
+2.	login with mobile and password
+3.	login  with different ways of writing  mobile number(i.e: +8801783485752,01783485752)
+4.	login with mobile number in Bangla format
+5.	login with valid user without verifying email or phone number
+6.	login with a  valid password after using forgotten password functionality
+7.	check show password button
+8.	check copy/paste password
+9.	validate that after logging the user is redirected to news feed page
+10.	login with a deactivated account
+11.	login with a suspended account
+
+
+Invalid Scenarios :
+1.	login with leaving phone or email field empty
+2.	login with leaving password feild empty
+3.	login with an invalid email "not registerd"
+4.	login with an invalid email "wrong format"
+5.	login with an invalid phone number "not registerd"
+6.	login with an invalid phone number "worng format"
+7.	login with invalid password with valid email
+8.	login with invalid password with valid phone number
+9.	login with invalid password 3 times
+10.	login with a valid password after being blocked from accessing the app
+11.	login with providing an old password
+12.	login with an old password after using forgotten password functonality
+13.	login without internet connection
+
+Redirection page validation :
+1.	validate forgetten password page
+2.	validate create new profile
+3.	validate sign up page
+4.	Add an item
+
+Compatibility testing :
+1.	test using Chrome
+2.	testusing Firefox
+3.	test using Edge
+4.	test using Safari
+5.	test using Safari on iPhone
+6.	test using Chrome on iPhone
+7.	test using Chrome on Andriod
+8.	test using any browser on a tablet
