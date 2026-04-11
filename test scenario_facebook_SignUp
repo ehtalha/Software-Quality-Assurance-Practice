@@ -1,0 +1,42 @@
+Description
+For sign-up password: Enter a combination of at least six numbers, letters, and punctuation marks (such as ! and &).
+
+1. 6 digits
+2. includes numbers
+3. includes letters
+4. includes special characters
+
+Valid Scenario :
+1.	Validate the sign-up data with mobile
+2.	Validate the sign-up with email
+3.	Validate sign up with bangla first and surname
+4.	Validate sign up with short valid first and surname. "E.g: Mr"
+5.	Validate probiding a mobile number with or without country code.(E.g: 01783485752, +8801783485752)
+6.	Validate sign up with bangla mobile number
+7.	Validate sign up with age in the range of 13-18 years old
+8.	Validate sign up with age in the range of 18 -120 years old
+9.	Validate providing different values of gender
+
+Invalid Scenario :
+1.	validate leaving the field first name empty
+2.	validate leaving the field saurname empty
+3.	validate leaving the feild gender  empty
+4.	validate leaving the field mobile number or email empty
+5.	verify providing number or special character in first name
+6.	verify providing number or special character in surname
+7.	verify providing very short first name "E.g : N"
+8.	verify providing very short surname "E.g : N"
+9.	verify providing very long first name ( more then 50 characters)
+10.	verify providing very long surename ( more then 50 characters)
+11.	verify providing a short mobile number."1234"
+12.	verify providing a large mobile number." More than 15 digits."
+13.	verify providing a space in a mobile number
+14.	verify copy/paste mobile number from another website
+15.	verify adding an email with wrong format "abc11323#"
+16.	verify adding an email with a mistake in the format " abc12@gamil.com"
+17.	validate a  password less than 6 digits[e.g: a123#]
+18.	validate a password without letters[1234@5]
+19.	validate a password without special characters [Abcd123]
+20.	validate a password without a number[num@abcc]
+21.	validate providing a date of birth more than 120 years
+22.	validate providing a date of birth less than 13 years
