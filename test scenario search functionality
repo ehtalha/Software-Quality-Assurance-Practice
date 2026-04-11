@@ -1,0 +1,34 @@
+Search on Udemy
+
+
+Catagory Search:
+1.	Validate searching for a parent category [Development -Buisness-Design]
+2.	Validate searching for a subcategory [Web Development -DataScience-Software testing]
+3.	Validate searching for popular topic inside categories [Selenium Webdriver-ISTQB FL-Playright]
+4.	Validate searching for a parent category with a spelling mistake [Develobment -Businesss-Disign]
+5.	Validate searching for subcategory [Web Devellobment-DataSince]
+6.	Validate searching for popular topic inside categories  with a spelling mistake [Selenium Weddriver-ISTOB ]
+7.	Validate searching for a category with a synonym[Development >> Coding]
+8.	Validate searching for a subcategory with a synonym[Software testing >> testing>>Quality Assurance]
+9.	Validate searching for a popular topic with a synonym[Automation testing>> Testing Automation]
+10.	Validate searching for categories in other languages
+11.	Validate searching for subcategories in other languages
+12.	Validate searching for popular topics in other languages
+
+
+Course Search:
+1.	Validate searching for a course using its name exactly
+2.	Validate searching for a course using part of its name
+3.	Validate searching for a  course while making a spelling mistake in its name
+4.	Validate searching for a course using its description
+5.	Validate searching for a course using part of its description
+6.	Search for a course in another language
+7.	Search for a lecture in a course
+8.	Search for a lecture in a course in which more than one lecture has the same name "test scenario" and validate that the count is correct
+9.	search for a lecture  with different learning language preferences
+
+Instractor Search :
+1.	Search for an  instructor with his name
+2.	Search for an instructor with making mistake in his name
+3.	Search for an instructor with his name and course
+4.	Search for an instructor with different learning language preferences
